@@ -12,11 +12,27 @@ class AppLogo extends StatelessWidget {
   Widget build(BuildContext context) {
     const fontFamily = 'PlusJakartaSans';
 
-    Widget icon = Image.asset(
-      'assets/images/logo-dompet.png',
+    Widget icon = Container(
       width: size,
       height: size,
-      fit: BoxFit.contain,
+      decoration: BoxDecoration(
+        gradient: AppColors.primaryGradient,
+        borderRadius: BorderRadius.circular(size * 0.28),
+        boxShadow: [
+          BoxShadow(
+            color: AppColors.primary.withValues(alpha: 0.3),
+            blurRadius: size * 0.2,
+            offset: Offset(0, size * 0.08),
+          ),
+        ],
+      ),
+      child: Center(
+        child: Icon(
+          Icons.shield_rounded,
+          color: Colors.white,
+          size: size * 0.55,
+        ),
+      ),
     );
 
     if (!withText) return icon;
@@ -31,24 +47,24 @@ class AppLogo extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Dompet Kampus',
+              'AMAN',
               style: TextStyle(
                 fontFamily: fontFamily,
-                fontSize: size * 0.3,
-                fontWeight: FontWeight.w800,
+                fontSize: size * 0.38,
+                fontWeight: FontWeight.w900,
                 color: light ? Colors.white : AppColors.ink,
                 letterSpacing: -0.3,
                 height: 1.05,
               ),
             ),
             Text(
-              'GLOBAL',
+              'ASET MASA DEPAN',
               style: TextStyle(
                 fontFamily: fontFamily,
-                fontSize: size * 0.205,
-                fontWeight: FontWeight.w700,
+                fontSize: size * 0.165,
+                fontWeight: FontWeight.w800,
                 color: light ? Colors.white.withValues(alpha: 0.85) : AppColors.primary,
-                letterSpacing: 1.5,
+                letterSpacing: 1.2,
                 height: 1.05,
               ),
             ),
