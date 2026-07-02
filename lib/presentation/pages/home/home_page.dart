@@ -185,7 +185,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   const AppLogo(size: 26),
                   const SizedBox(width: 7),
-                  const Text('Saldo DKG',
+                  const Text('Saldo AMAN',
                       style: TextStyle(
                         fontFamily: 'PlusJakartaSans',
                         fontSize: 13,
@@ -303,7 +303,7 @@ class _HomePageState extends State<HomePage> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: const [
-                    Text('Poin Kampus',
+                    Text('Poin AMAN',
                         style: TextStyle(
                             fontFamily: 'PlusJakartaSans',
                             fontSize: 11.5,
@@ -338,7 +338,7 @@ class _HomePageState extends State<HomePage> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: const [
-                    Text('KTM Digital',
+                    Text('Brankas Digital',
                         style: TextStyle(
                             fontFamily: 'PlusJakartaSans',
                             fontSize: 11.5,
@@ -365,7 +365,7 @@ class _HomePageState extends State<HomePage> {
       {'icon': Icons.smartphone_outlined, 'label': 'Pulsa', 'tone': 'blue'},
       {'icon': Icons.bolt_outlined, 'label': 'PLN', 'tone': 'amber'},
       {'icon': Icons.restaurant_outlined, 'label': 'Kantin', 'tone': 'red'},
-      {'icon': Icons.receipt_long_outlined, 'label': 'UKT', 'tone': 'violet'},
+      {'icon': Icons.receipt_long_outlined, 'label': 'Investasi', 'tone': 'violet'},
       {'icon': Icons.wifi_rounded, 'label': 'Paket Data', 'tone': 'green'},
       {'icon': Icons.card_giftcard_rounded, 'label': 'Voucher', 'tone': 'red'},
       {'icon': Icons.favorite_outline_rounded, 'label': 'Donasi', 'tone': 'amber'},
@@ -460,7 +460,7 @@ class _HomePageState extends State<HomePage> {
                             color: Colors.white,
                           )),
                       SizedBox(height: 2),
-                      Text('Simulasi checkout e-commerce → bayar via DKG',
+                      Text('Simulasi checkout e-commerce → bayar via AMAN',
                           style: TextStyle(
                             fontFamily: 'PlusJakartaSans',
                             fontSize: 12.5,
