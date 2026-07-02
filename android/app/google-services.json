@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "193119908448",
+    "project_id": "be-emoney-63ae3",
+    "storage_bucket": "be-emoney-63ae3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193119908448:android:26c2623f5c564707868905",
+        "android_client_info": {
+          "package_name": "com.example.dompet_kampus_global"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193119908448-136m8cr3947ootevcuqdepmvmn9jr38n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcZFDEon6UVNniqQ_MF3B-9vJUhkO_lIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193119908448-136m8cr3947ootevcuqdepmvmn9jr38n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193119908448:android:b64ecd9286a8f3d6868905",
+        "android_client_info": {
+          "package_name": "com.example.emoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193119908448-136m8cr3947ootevcuqdepmvmn9jr38n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcZFDEon6UVNniqQ_MF3B-9vJUhkO_lIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193119908448-136m8cr3947ootevcuqdepmvmn9jr38n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
