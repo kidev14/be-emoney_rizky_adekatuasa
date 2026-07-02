@@ -9,9 +9,9 @@ class PromoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final promos = [
-      {'t': 'Cashback 30% di Kantin Kampus', 'd': 'Maks. Rp10.000 · s.d. 30 Jun', 'tone': 'red', 'icon': Icons.restaurant_outlined},
+      {'t': 'Cashback 30% di Merchant Pilihan', 'd': 'Maks. Rp10.000 · s.d. 30 Jun', 'tone': 'red', 'icon': Icons.restaurant_outlined},
       {'t': 'Gratis biaya transfer antarbank', 'd': 'Setiap Jumat · semua bank', 'tone': 'green', 'icon': Icons.send_rounded},
-      {'t': 'Diskon UKT 0% cicilan 6 bulan', 'd': 'Khusus pengguna baru', 'tone': 'violet', 'icon': Icons.receipt_long_outlined},
+      {'t': 'Bunga 0% cicilan investasi 6 bulan', 'd': 'Khusus pengguna baru', 'tone': 'violet', 'icon': Icons.receipt_long_outlined},
       {'t': 'Bonus 5.000 poin top up pertama', 'd': 'Min. Rp50.000', 'tone': 'amber', 'icon': Icons.star_outline_rounded},
     ];
 
@@ -66,9 +66,9 @@ class PromoPage extends StatelessWidget {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: const [
-                          AppBadge(label: 'SPESIAL MAHASISWA', tone: 'amber'),
+                          AppBadge(label: 'INVESTASI AMAN', tone: 'amber'),
                           SizedBox(height: 12),
-                          Text('Bayar kuliah,\ndapat cashback 💸',
+                          Text('Investasi berkala,\ndapat cashback 💸',
                               style: TextStyle(
                                 fontFamily: 'PlusJakartaSans',
                                 fontSize: 22,
