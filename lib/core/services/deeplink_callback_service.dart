@@ -19,7 +19,7 @@ class DeeplinkCallbackService {
   static Future<void> notifySuccess({
     required String callbackUrl,
     required String? reference,
-    required int transactionId,
+    required dynamic transactionId,
   }) async {
     await _launch(callbackUrl, {
       'status': 'success',
