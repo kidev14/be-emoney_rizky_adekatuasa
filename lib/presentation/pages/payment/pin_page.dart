@@ -162,23 +162,17 @@ class _PinPageState extends State<PinPage> {
           listener: (context, state) {
             if (state is PaymentTransferSuccess) {
               final result = state.result;
-              // Kirim callback sukses ke app merchant (fire-and-forget, best-effort).
-              final cb = _callbackUrl;
-              if (cb != null) {
-                DeeplinkCallbackService.notifySuccess(
-                  callbackUrl: cb,
-                  reference: _callbackReference,
-                  transactionId: result.transactionId,
-                );
-              }
               context.go('/success', extra: {
                 'title': 'Pembayaran berhasil',
                 'subtitle': result.description,
                 'amount': result.amount,
+                'callbackUrl': _callbackUrl,
+                'callbackReference': _callbackReference,
+                'transactionId': result.transactionId.toString(),
                 'lines': [
                   ['Jumlah', CurrencyFormatter.format(result.amount)],
                   ['Saldo setelah', CurrencyFormatter.format(result.balanceAfter)],
-                  ['Ref', 'DKG${result.transactionId}'],
+                  ['Ref', 'AMAN${result.transactionId}'],
                 ],
               });
             } else if (state is PaymentTopupSuccess) {
