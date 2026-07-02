@@ -78,7 +78,7 @@ class _SplashPageState extends State<SplashPage> {
                       const AppLogo(size: 92, light: true),
                       const SizedBox(height: 26),
                       const Text(
-                        'Dompet Kampus',
+                        'AMAN',
                         style: TextStyle(
                           fontFamily: 'PlusJakartaSans',
                           fontSize: 30,
@@ -89,18 +89,18 @@ class _SplashPageState extends State<SplashPage> {
                       ),
                       const SizedBox(height: 2),
                       const Text(
-                        'GLOBAL',
+                        'ASET MASA DEPAN',
                         style: TextStyle(
                           fontFamily: 'PlusJakartaSans',
-                          fontSize: 18,
+                          fontSize: 16,
                           fontWeight: FontWeight.w700,
                           color: Colors.white,
-                          letterSpacing: 3,
+                          letterSpacing: 2,
                         ),
                       ),
                       const SizedBox(height: 16),
                       const Text(
-                        'Bayar, transfer, dan kelola uang kuliah\ndalam satu aplikasi yang aman.',
+                        'Kelola, simpan, dan investasikan dana Anda\ndengan aman untuk masa depan.',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontFamily: 'PlusJakartaSans',
