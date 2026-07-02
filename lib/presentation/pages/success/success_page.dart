@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import '../../../core/services/deeplink_callback_service.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/utils/currency_formatter.dart';
 import '../../blocs/account/account_bloc.dart';
@@ -13,6 +14,9 @@ class SuccessPage extends StatefulWidget {
   final String subtitle;
   final double amount;
   final List<List<String>> lines;
+  final String? callbackUrl;
+  final String? callbackReference;
+  final String? transactionId;
 
   const SuccessPage({
     super.key,
@@ -20,6 +24,9 @@ class SuccessPage extends StatefulWidget {
     required this.subtitle,
     required this.amount,
     required this.lines,
+    this.callbackUrl,
+    this.callbackReference,
+    this.transactionId,
   });
 
   @override
@@ -132,7 +139,16 @@ class _SuccessPageState extends State<SuccessPage> {
                 children: [
                   AppButton(
                     label: 'Selesai',
-                    onPressed: () => context.go('/home'),
+                    onPressed: () {
+                      if (widget.callbackUrl != null) {
+                        DeeplinkCallbackService.notifySuccess(
+                          callbackUrl: widget.callbackUrl!,
+                          reference: widget.callbackReference,
+                          transactionId: widget.transactionId,
+                        );
+                      }
+                      context.go('/home');
+                    },
                   ),
                   const SizedBox(height: 10),
                   AppButton(
