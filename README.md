@@ -14,6 +14,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
 ## 💸 BE-Emoney AMAN (Aset Masa Depan) (Frontend)
 Tugas Ujian Akhir Semester (UAS) Mobile Application
 
@@ -21,6 +22,12 @@ Tugas Ujian Akhir Semester (UAS) Mobile Application
 Aplikasi Frontend BE-EMONEY komprehensif untuk pembayaran, transfer saldo, top-up, dan integrasi merchant.
 
 Rizky Adekatuasa • 1123150137
+
+## Alur Integrasi Marketplace dan E-Wallet Menggunakan Deep Link
+
+Project ini terdiri dari dua aplikasi yang saling terintegrasi, yaitu aplikasi Marketplace dan aplikasi E-Wallet Dompet Kampus. Marketplace digunakan untuk membuat pesanan, sedangkan E-Wallet digunakan sebagai metode pembayaran. Integrasi antara kedua aplikasi dilakukan menggunakan Deep Link.
+
+Deep link adalah link khusus yang dapat membuka aplikasi e-wallet secara langsung dari aplikasi marketplace sambil membawa data transaksi seperti order_id, amount, dan callback_url.
 
 ## prototype
 1.login pasar malam
