@@ -23,6 +23,21 @@ Aplikasi Frontend BE-EMONEY komprehensif untuk pembayaran, transfer saldo, top-u
 
 Rizky Adekatuasa • 1123150137
 
+## DESKRIPSI
+**DompetKita **merupakan aplikasi E-Money berbasis Flutter yang dikembangkan sebagai proyek Ujian Akhir Semester (UAS) Mata Kuliah Aplikasi Mobile Lanjutan.
+
+Aplikasi ini dirancang sebagai digital wallet yang dapat digunakan untuk melakukan pembayaran pada aplikasi E-Commerce melalui mekanisme App-to-App Integration menggunakan Deep Link.
+
+Selain sebagai dompet digital, aplikasi ini juga mengimplementasikan berbagai teknologi modern seperti:
+
+Firebase Authentication
+Firebase Cloud Messaging (FCM)
+JWT Authentication
+REST API
+Deep Link
+Two-Factor Authentication (OTP)
+Secure Storage
+
 ## Alur Integrasi Marketplace dan E-Wallet Menggunakan Deep Link
 
 Project ini terdiri dari dua aplikasi yang saling terintegrasi, yaitu aplikasi Marketplace dan aplikasi E-Wallet Dompet Kampus. Marketplace digunakan untuk membuat pesanan, sedangkan E-Wallet digunakan sebagai metode pembayaran. Integrasi antara kedua aplikasi dilakukan menggunakan Deep Link.
