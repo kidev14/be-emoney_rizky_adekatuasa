@@ -200,6 +200,10 @@ Contoh perubahan status:
 
 pending → paid
 
+## KESIMPULAN 
+
+Integrasi marketplace dan e-wallet menggunakan deep link memungkinkan user berpindah dari aplikasi marketplace ke aplikasi e-wallet secara langsung untuk melakukan pembayaran. Deep link hanya berfungsi sebagai penghubung dan pembawa data transaksi. Proses pembayaran sebenarnya tetap dilakukan oleh aplikasi e-wallet dan backend e-wallet. Dengan alur ini, sistem menjadi lebih aman dan terstruktur karena pembayaran tetap melalui validasi token, pengecekan saldo, validasi PIN atau OTP, serta pencatatan transaksi di database.
+
 ## prototype
 1.login pasar malam
 ![alt text](<assets/images/Screenshot 2026-07-03 135516.png>)
