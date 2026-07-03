@@ -14,6 +14,14 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+## 💸 BE-Emoney AMAN (Aset Masa Depan) (Frontend)
+Tugas Ujian Akhir Semester (UAS) Mobile Application
+
+
+Aplikasi Frontend BE-EMONEY komprehensif untuk pembayaran, transfer saldo, top-up, dan integrasi merchant.
+
+Rizky Adekatuasa • 1123150137
+
 ## prototype
 1.login pasar malam
 ![alt text](<assets/images/Screenshot 2026-07-03 135516.png>)
@@ -44,6 +52,8 @@ samples, guidance on mobile development, and a full API reference.
 ![alt text](<assets/images/Screenshot 2026-07-03 141012.png>)
 5.akun AMAN
 ![alt text](<assets/images/Screenshot 2026-07-03 141024.png>)
+
+
 
 
 
