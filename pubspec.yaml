@@ -48,10 +48,17 @@ dependencies:
   url_launcher: ^6.3.1
   app_links: ^6.3.2
 
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo-dompet.png"
+  remove_alpha_ios: true
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
 
 flutter:
   uses-material-design: true
