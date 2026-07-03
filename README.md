@@ -235,6 +235,9 @@ Integrasi marketplace dan e-wallet menggunakan deep link memungkinkan user berpi
 5.akun AMAN
 ![alt text](<assets/images/Screenshot 2026-07-03 141024.png>)
 
+## LINK YOUTUBE
+https://youtu.be/4TxnEEgSdkc?si=DHykjsZ2C_UNpiqd
+
 
 
 
